@@ -1,0 +1,163 @@
+.sidebar ul{
+    list-style: none;
+    padding-inline-start: 0;
+}
+.widget_recent_entries li {
+    border-bottom: 2px dotted #333;
+    display: flex;
+    flex-direction: column;
+    padding: .5em;
+}
+.widget_recent_entries ul {
+    margin-bottom: 1.5em;
+}
+.widget_recent_entries .post-date{
+    color:#D73939;
+    font-style: italic;
+    font-weight: bold;
+}
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.sidebar ul li:first-child{
+    padding-right: .5em;
+}
+.sidebar a:hover{
+    text-decoration: underline;
+    
+}
+.article__infos span a {
+    text-decoration: none;
+    color: white ;
+}  
+.article__infos span a:hover {
+    color:rgb(172, 172, 172);
+} 
+.article__infos span {
+    background-color: #263C4A;
+}
+.article__infos .bg-secondary a:hover{
+    color: #495057;
+}
+.article__infos .bg-warning a:hover{
+    color: #332701;
+}
+.article__infos p {
+    font-family: New font ital sans-serif;
+}
+.article__infos i {
+    color:#D73939;
+    font-weight: bold;
+}
+/*
+    Menu
+*/
+.entete{
+    background-color:#263C4A;
+}
+.entete a {
+    color:#fff !important;
+}
+.nav a:hover{
+    color: #abaeb1 !important;
+}
+.navbar{
+    background-color: #263C4A;
+}
+
+.dropdown-menu{
+    background-color: #263C4A;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+    background-color: #274659 !important;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+p {
+    font-family: New font sans-serif;
+}
+
+.link-dark:hover{
+    text-decoration: underline !important;
+}
+/*
+    sticky-post
+*/
+.sticky-post {
+    border-top: 2px dotted #333;
+    border-bottom: 2px dotted #333;
+}
+/*
+        CARD
+*/
+.card{
+    border:none;
+    border-radius: 0;
+    border-bottom: 1px dotted #333;
+}
+
+.card-body{
+    padding: .2em .2em;
+}
+
+/*
+    Footer
+*/
+
+footer {
+    background-color: #263C4A;
+}
+
+
+/*
+    Pagination
+*/
+
+.page-numbers{
+    text-decoration: none;
+    padding: .3em .6em;
+    color: #263C4A;
+    border: 1px solid #263C4A;
+    background-color: #CED4DA;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+}
+.page-numbers:hover{
+    text-decoration: underline #263C4A;  
+    color: #263C4A;
+}
+
+.next,.prev{
+    background-color: #263C4A;
+    color: #fff;
+}
+.next,.prev:hover{
+    color:#fff;
+}
+
+.custom-pagination{
+    margin: .5em auto;
+    width: auto;   
+}
+.current{
+    background-color:#263C4A;
+    color:#fff;
+}
+.current:hover,.next:hover,.prev:hover{
+    color: #abaeb1;
+}
+
+/*
+    CARD responsive
+*/
+
+@media screen and (max-width:451px) {
+    .article__img{
+        width: auto;
+        margin: 0 auto;
+    }
+}

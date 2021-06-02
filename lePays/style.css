@@ -1,0 +1,28 @@
+/*
+Theme Name: lePays
+Theme URI: https://capitainewp.io
+Author: Jeremy Oger
+Author URI: https://dysign.fr
+Description: Thème pour un journal local !
+Requires at least: Wordpress 5.0
+Version: 1.0
+*/
+
+@font-face {
+    font-family: New font gras;
+    src: local ("./assets/fonts/OpenSansCondensed-Bold.ttf");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: New font;
+    src: local ("./assets/fonts/OpenSansCondensed-Light.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: New font ital;
+    src: local ("./assets/fonts/OpenSansCondensed-LightItalic.ttf");
+    font-weight: normal;
+}
+
