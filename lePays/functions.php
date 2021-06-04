@@ -172,3 +172,6 @@ function pagination_bar() {
         ));
     }
 };
+
+// cacher la version de wordpress
+remove_action("wp_head", "wp_generator");
