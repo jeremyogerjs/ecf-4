@@ -1,4 +1,5 @@
 # Le théme Le pays
+*wordpress 5.7.2*
 
 Pour l'utiliser vous devez simplement télécharger le théme pays et l'insérer dans le dossier `wp-content/themes` de votre wordpress.
 
