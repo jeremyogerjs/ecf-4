@@ -24,6 +24,7 @@ Au niveau du maquettage finalement je n'ai réussi a faire comme la maquette car
  
 Pour faciliter le développement de ce thème j'ai utilisé un plugins [FakerPress](https://fr.wordpress.org/plugins/fakerpress/) pour génerer des articles aléatoires, aussi j'ai utilisé [event calendar](https://fr.wordpress.org/plugins/the-events-calendar/) pour générer plus facilement des événements a venir comme indiqué dans la demande client.
 
+***
 ### Sécurité
  
 Au niveau de l'aspect sécurité j'ai suivi ce [tutoriel](https://www.codeur.com/tuto/wordpress/proteger-wordpress-attaques/#2_utiliser_des_identifiants_de_connexion_complexes)
@@ -40,6 +41,7 @@ Voici les actions effectuer:
 - Désactivez l'édition de fichier pour éviter les mauvaises manipulations grâce a cette ligne dans `wp-config.php` : `define( 'DISALLOW_FILE_EDIT', true );`
 - Changement du préfixe des tables
  
+ ***
 ### Performance
  
 Au niveau des performances voici les actions effectuer : 
