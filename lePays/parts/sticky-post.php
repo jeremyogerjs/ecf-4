@@ -17,12 +17,15 @@
                                 <?php echo get_the_post_thumbnail($post_item['ID'], 'medium'); ?>
                             </a>
                         </div>
-                        <div class="col-sm-8 d-sm-flex align-items-sm-center mx-sm-auto">
+                        <div class="col-sm-8 d-sm-flex mx-sm-auto">
                             <div class="card-body">
                                 <h4 class="card-title"><a class="text-decoration-none link-dark" href="<?php the_permalink() ?>"> <?php echo $post_item['post_title'] ?> </a></h4>
-                                <h5 class="card-subtitle"><?php the_author();  ?></h5>
-                            
-                                <div class="article__infos">
+                                <h5 class="card-subtitle"><?php the_author(); ?></h5>
+                                <div class="col-sm-10 py-2">
+                                    <?php the_excerpt(); ?>
+                                </div>
+                                
+                                <div class="article__infos pt-3">
                                     <div>
                                         <i>
                                             Publié le <?php the_time(get_option( 'date_format') ); ?>

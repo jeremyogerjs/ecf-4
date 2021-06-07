@@ -16,9 +16,9 @@
                             <div class="col-sm-8">
                                 <div class="card-body">
                                         <h4 class="card-title"><a class="text-decoration-none link-dark" href="<?php the_permalink() ?>"> <?php the_title(); ?> </a></h4>
-                                        <h5 class="card-subtitle"><?php the_author(); ?></h5>
+                                        <h5 class="card-subtitle fst-italic"><?php the_author(); ?></h5>
                                 </div>
-                                <div class="article__infos">
+                                <div class="article__infos pt-4">
                                     <div>
                                     <i>
                                         Publié le <?php the_time(get_option( 'date_format') ); ?>
