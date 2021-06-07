@@ -1,7 +1,7 @@
 # Le théme Le pays
 *wordpress 5.7.2*
 
-Pour l'utiliser vous devez simplement télécharger le théme pays et l'insérer dans le dossier `wp-content/themes` de votre wordpress.
+Pour l'utiliser vous devez simplement télécharger le fichier `lePays.zip` et l'insérer dans le dossier `wp-content/themes` de votre wordpress.
 
 Vous devez utiliser les derniers articles en page d'accueil sinon le théme ne fonctionnera pas. 
 D'autre parts ce théme est compatible avec le plugins [eventCalendar](https://fr.wordpress.org/plugins/the-events-calendar/) pour gérer les événements. 
