@@ -44,5 +44,5 @@ Voici les actions effectuer:
  
 Au niveau des performances voici les actions effectuer : 
  
-- Allongez la durée des sauvegardes automatiques avec `define( 'AUTOSAVE_INTERVAL', 300 );` dans le fichier `wp-config.php` 
+- Allonger la durée des sauvegardes automatiques avec `define( 'AUTOSAVE_INTERVAL', 300 );` dans le fichier `wp-config.php` 
 - Allongement du temps de revision en ajoutant cette ligne `define( 'WP_POST_REVISIONS', 5 );` au fichier `wp-config.php`
