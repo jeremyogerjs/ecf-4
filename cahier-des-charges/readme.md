@@ -1,5 +1,6 @@
 # ecf-4 Le pays
- Voici le site déploier : http://jeremy.devweb.cfa.nc/ecf4/
+%md <a href="http://jeremy.devweb.cfa.nc/ecf4/" target="_blank">google link</a>
+ 
 > Le projet a été réalisé en HTML,CSS et PHP (Wordpress ) en respectant la demande client.  
               
 ### Besoin fonctionnelle
