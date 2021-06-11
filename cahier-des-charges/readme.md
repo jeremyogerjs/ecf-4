@@ -1,6 +1,6 @@
 # ecf-4 Le pays
 
- Voici le site déploier : http://jeremy.devweb.cfa.nc/ecf4/
+ Voici le site déployer : http://jeremy.devweb.cfa.nc/ecf4/
 > Le projet a été réalisé en HTML,CSS et PHP (Wordpress ) en respectant la demande client.  
               
 ### Besoin fonctionnelle
